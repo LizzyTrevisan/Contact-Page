@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS overview</title>
+    <link rel="stylesheet" href="css/style.css"></link>
+    <link rel="stylesheet" href="css/gallary.css"></link>
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      .menu, .nav{
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             list-style-type: none;
+             padding: 0;
+             margin: 0;
+             background-color: rgb(12, 102, 132);
+             border-bottom: solid black 1px;
+             box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+             text-decoration: none;
+             color: white;
+ 
+        }
+        #tlt{
+          font-size: 5vw;
+          margin: 0;
+        }
+        .nav{
+            text-align: center;
+            padding: 10px;;
+            color: wheat;
+        }
+    </style>
+  </head>
+  <body>
+
+    <div style="border: solid red 1px">
+      <h1 id="tlt" class="title-elements">View our Galleries</h1>
+      <p id="ctnt">This is a simple website created using HTML and CSS.</p>
+      <ul id="menu" class="menu" >
+        <li id="home" class="nav" ><a href="index.html" >Home</a></li>
+        <li class="nav"><a href="about.html">About</a></li>
+        <li class="nav"><a href="contact.html">Contact</a> </li>
+        <li class="nav"><a href="#">Gallery</a> </li>
+    </ul>
+    </div>
+    <div id="content" class="content">
+      <div class="gallery">
+
+        <a target="_blank" href="img/bird1.jpeg"><!--This is the container anchor tag-->
+          <img src="img/bird1.jpeg" alt="Bird1" width="500" height="500">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+      
+      <div class="gallery next-div">
+        <a target="_blank" href="img/bird2.jpg">
+          <img src="img/bird2.jpg" alt="bird2" width="500" height="500">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+       
+      </div>  
+</div> 
+<div class="next-div">
+
+</div>    
+<div>
+  <img class="overlay-images" src="img/cat1.jpeg" alt="cat" width="200" height="200">
+  <img class="overlay-images-1" src="img/bird1.jpeg" alt="bird" width="200" height="200">
+</div>
+
+  </div>
+  </body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS overview</title>
+    <link rel="stylesheet" href="css/style.css"></link>
+    <link rel="stylesheet" href="css/contact.css"></link>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <body>
+    <!-- <div id="container" class="container" style="border: solid red 1px"> -->
+      <h1 id="tlt" class="head-text">Contact page</h1>
+      <!-- <p id="ctnt">This is a simple website created using HTML and CSS.</p> -->
+      <ul id="menu" class="menu" >
+        <li id="home" class="nav" ><a href="index.html" >Home</a></li>
+        <li class="nav"><a href="#">About</a></li>
+        <li class="nav"><a href="contact.html">Contact</a> </li>
+        <li class="nav"><a href="gallery.html">Gallery</a> </li>
+    </ul>
+    </div>
+    
+    
+
+    </div>   
+    <br>
+    <h1 class="title-text">Form Elements Example</h1>
+    <pre>
+
+    </pre>
+
+    <form>
+      <div  class="form-group">
+        <label for="name">Name:</label>
+        <input type="name" id="name" name="name" required>
+    </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="age">Age:</label>
+            <input text="number" id="age" name="age" min="1" max="120" required>
+        </div>
+
+        <div class="form-group">
+            <label for="contact-date">Contact Date:</label>
+            <input type="date" id="contact-date" name="contact-date" required style="color: gray;"></div>
+
+        <div class="form-group">
+            <label>Color Choice:</label>
+            <input type="radio" id="color-red" name="color" value="red">
+            <label for="color-red">Red</label>
+            <input type="radio" id="color-blue" name="color" value="blue">
+            <label for="color-blue">Blue</label>
+            <input type="radio" id="color-green" name="color" value="green">
+            <label for="color-green">Green</label>
+        </div>
+
+        <div class="form-group">
+            <label>Interests:</label>
+            <input type="checkbox" id="interest-1" name="interests" value="sports">
+            <label for="interest-1">Sports</label>
+            <input type="checkbox" id="interest-2" name="interests" value="music">
+            <label for="interest-2">Music</label>
+            <input type="checkbox" id="interest-3" name="interests" value="art">
+            <label for="interest-3">Art</label>
+        </div>
+
+        <div class="form-group">
+            <label for="range">Select a range (0-100):</label>
+            <input type="range" id="range" name="range" min="0" max="100">
+        </div>
+
+        <div class="form-group">
+            <label for="dropdown">Select an option:</label>
+            <select id="dropdown" name="dropdown" required style="color: gray;">
+                <option value="" disabled selected>Select city</option>
+                <option value="option1">Toronto</option>
+                <option value="option2">Edmonton</option>
+                <option value="option3">Calgary</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="feedback">Feedback</label>
+            <textarea type="text" id="feedback" name="feedback" style="width: 200px; height: 100px;color: gray;"></textarea></div>
+
+        <div class="form-group">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+
+</body>
+</html>

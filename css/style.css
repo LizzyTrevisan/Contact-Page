@@ -1,0 +1,173 @@
+body {
+  background-color: lightblue;
+}
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(12, 102, 132);
+  border-bottom: solid black 1px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  color: white;
+}
+#tlt {
+  font-size: 5vw;
+  margin: 0;
+}
+
+.nav {
+  text-align: center;
+  padding-left: 20px;
+  color: wheat;
+  display: inline-block;
+  margin: 5px;
+}
+.nav a {
+  text-decoration: none;
+  color: wheat;
+  border: black;
+}
+
+.title-elements {
+  color: antiquewhite;
+}
+header,
+footer {
+  border: solid 1px black;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+footer {
+  position: sticky;
+  bottom: 0px;
+}
+.row1 {
+  width: 90%;
+  margin: auto;
+  border: 3px red solid;
+  display: block;
+  min-height: 1px;
+}
+
+.divclearleft {
+  clear: both;
+}
+
+.col1 {
+  position: relative;
+  width: 20%;
+  /* border: solid rebeccapurple 1px; */
+  float: left;
+  padding-top: 20px;
+}
+
+.col2 {
+  display: block;
+  position: relative;
+  float: left;
+  width: 38%;
+  /* border: solid rgb(220, 26, 26) 1px; */
+}
+.col3 {
+  float: left;
+  width: 38%;
+  /* border: solid rebeccapurple 1px; */
+}
+.col1,
+.col2,
+.col3 {
+  display: inline-block;
+  /* margin: 10px; */
+  top: 20px;
+  margin: 4px;
+}
+.col2 {
+  font-family: serif;
+  font-style: oblique;
+  padding: 35px;
+}
+
+.col1 a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  text-align: center;
+  border: solid 2px yellow;
+  padding: 10px;
+  background-color: gray;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.col1 a:hover {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+}
+.col1 a:visited {
+  background-color: rgb(113, 104, 106);
+  color: rgb(73, 39, 135);
+}
+h2 {
+  font-size: 2em;
+  font-style: normal;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.row2 {
+  clear: both;
+  display: block;
+  border: solid red 1px;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  height: 100%;
+}
+.c1,
+.c2 {
+  width: 50%;
+  border: solid 1px rgb(153, 0, 255);
+  float: left;
+  height: 700px;
+  position: relative;
+  top: 20px;
+}
+.overlap {
+  position: absolute;
+  top: 1000px;
+  left: 450px;
+  width: 30%;
+  height: 400px;
+  /* background-color: rgba(255, 0, 0, 0.5);
+  z-index:1; */
+  border: 1px solid black;
+  background-image: url("../img/bird1.jpeg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;
+}
+
+.row1::after,
+.row2::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+h2 #pic {
+  text-align: center;
+  color: blue;
+  shape-outside: cross-fade(5);
+}
