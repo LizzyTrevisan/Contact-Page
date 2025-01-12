@@ -1,8 +1,8 @@
 # Contact-Page - Demo
 
 
-Repository of Athlete Page
-[First HTML College Project](https://lizzytrevisan.github.io/website-demo/contact.html)
+Repository of Contact Page
+[First HTML/CSS College Project](https://lizzytrevisan.github.io/website-demo/contact.html)
 
 
 
@@ -17,5 +17,5 @@ Repository of Athlete Page
 
 
 
-## Athlete Page HTML Project
+## Contact Page HTML/CSS Project
 ![Screenshot 2025-01-12 143621.png](https://github.com/LizzyTrevisan/website-demo/blob/main/Screenshot%202025-01-12%20143621.png))
