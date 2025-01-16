@@ -18,4 +18,4 @@ Repository of Contact Page
 
 
 ## Contact Page HTML/CSS Project
-![Screenshot 2025-01-12 143621.png](https://github.com/LizzyTrevisan/website-demo/blob/main/Screenshot%202025-01-12%20143621.png))
+![Screenshot 2025-01-12 143621.png](https://github.com/LizzyTrevisan/website-demo/blob/main/Screenshot%202025-01-12%20143621.png)
